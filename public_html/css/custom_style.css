@@ -83,7 +83,6 @@ h1 {
 .login-input-group .form-control {
     background-color: transparent;
     padding-left: 15%;
-    z-index: 9999;
 }
 
 .login-input-group i {

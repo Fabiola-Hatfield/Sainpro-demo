@@ -5,13 +5,11 @@ include_once ("db_config_isset_session.php");
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Inventory System</title>
 
     <!-- CSS links and scripts -->
     <?php
-    include_once ("templates/main_css.php");
+    include_once ("templates/content.php");
     include_once("templates/scripts.php");
     ?>
     <script src="js/manage.js"></script>

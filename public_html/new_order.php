@@ -4,15 +4,12 @@ include_once("db_config_isset_session.php");
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>New Invoice</title>
+
     <!-- Scripts jQuery, ajax, bootstrap -->
     <?php
-    include_once("templates/main_css.php");
-    ?>
-
-    <?php
+    include_once("templates/content.php");
     include_once("templates/scripts.php");
     ?>
     <script type="text/javascript" src="js/order.js"></script>

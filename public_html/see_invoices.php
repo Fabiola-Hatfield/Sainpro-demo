@@ -7,8 +7,12 @@ include_once("db_config_isset_session.php");
     <title>Invoices Information</title>
     <?php
     include_once("stylesheets.php");
+    ?>
+
+    <?php
     include_once("templates/scripts.php");
     ?>
+
     <script src="js/manage.js"></script>
 </head>
 

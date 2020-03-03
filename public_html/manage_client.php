@@ -4,14 +4,18 @@ include_once ("db_config_isset_session.php");
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <title>Clients Administration</title>
     <?php
     include_once("stylesheets.php");
     include_once("templates/scripts.php");
     ?>
+
     <script src="js/manage.js"></script>
 </head>
+
 <body>
 <!-- Navbar -->
 <?php include_once("templates/header.php"); ?>

@@ -10,8 +10,8 @@ h1 {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    font-weight: 400;
     color: rgba(255, 255, 255, 1);
+    font-weight: 400;
 }
 
 .clock-row {
@@ -20,47 +20,42 @@ h1 {
 }
 
 .log-form-container {
-    border-radius: 7px;
     background: #ffffff;
+    border-radius: 7px;
     border-top: 5px solid #1d53c9;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1) !important;
     margin: 6% auto;
     max-width: 500px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1) !important;
+
 }
 
 .form-header {
+    border-bottom: 1px solid #f4f4f4;
     color: #444;
     display: block;
     padding: 20px;
     position: relative;
-    border-bottom: 1px solid #f4f4f4;
 }
 
 .form-header .form-title {
     display: inline-block;
     font-size: 18px;
+    line-height: 1;
     margin: 0;
-    line-height: 1
 }
 
 .form-body {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-    padding: 20px;
+    border-radius: 0 0 3px 3px;
     color: black;
+    padding: 20px;
     font-weight: bold;
 }
 
 .form-footer {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    background-color: #fff;
+    border-radius: 0 0 3px 3px;
     border-top: 1px solid #f4f4f4;
     padding: 20px;
-    background-color: #fff
 }
 
 .form-control {
@@ -69,7 +64,6 @@ h1 {
     height: auto;
     padding: 7px 9px;
 }
-
 
 .form-group #error {
     color: #a94442;
@@ -83,14 +77,15 @@ h1 {
 .login-input-group .form-control {
     background-color: transparent;
     padding-left: 15%;
+    z-index: 999;
 }
 
 .login-input-group i {
-    position: absolute;
+    align-items: center;
     color: #AAAAAA;
     display: flex;
     justify-content: center;
-    align-items: center;
+    position: absolute;
 }
 
 .login-input-group input[type=text]:focus + i,
@@ -101,12 +96,11 @@ h1 {
 
 .login-input-group.log-bg i {
     background-color: #AAAAAA;
-    color: #FFFFFF;
-    width: 9%;
-    padding: 12px 6px;
     border-radius: 4px 0 0 4px;
+    color: #FFFFFF;
+    padding: 12px 6px;
+    width: 9%;
 }
-
 
 
 .alert-info {
@@ -145,9 +139,9 @@ h1 {
 }
 
 .scrollbar-y {
-    position: relative;
     height: 300px;
     overflow: auto;
+    position: relative;
 }
 
 .table-wrapper-scroll-y {
@@ -217,8 +211,15 @@ h1 {
     }
 }
 
-/* Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }*/
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .main-div .card {
+        margin-left: 20px;
+    }
+    .main-div .btn-primary {
+        margin-bottom: 10px;
+    }
+}
 
 /* Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }*/
